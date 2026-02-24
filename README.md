@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 new file mode 100644
 index 0000000000000000000000000000000000000000..522d86163a2b57baa47755560b8ee6ae2226b20f
@@ -69,6 +68,3 @@ index 0000000000000000000000000000000000000000..522d86163a2b57baa47755560b8ee6ae
 +- Ürün eşleme (entity resolution) iyileştirme
 +- LLM prompt ve değerlendirme veri seti ile model kalibrasyonu
 +- Dashboard (FastAPI + React) ile canlı izleme
- 
-EOF
-)
